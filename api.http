@@ -1,0 +1,8 @@
+### GET ALL USER
+GET http://localhost:3000/posts
+
+### GET DETAIL USER
+GET http://localhost:3000/posts/9
+
+### DELETE USER
+DELETE http://localhost:3000/posts/8
