@@ -6,3 +6,11 @@ GET http://localhost:3000/posts/9
 
 ### DELETE USER
 DELETE http://localhost:3000/posts/8
+
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "title": "titolo",
+    "message": "messaggio di testo"
+}
